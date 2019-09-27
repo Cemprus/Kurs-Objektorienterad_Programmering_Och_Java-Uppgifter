@@ -4,7 +4,7 @@ public class Dog extends Mammal {
 
 
     public void Sound() {
-        System.out.println("Dogs make these sounds: \"Bark! Bark!\"");
+        super.Sound("\"Bark! Bark!\"");
     }
 
     public Dog() {

@@ -4,7 +4,7 @@ public class Snake extends Reptile {
 
 
     public void Sound() {
-        System.out.println("Snakes make these sounds: \"Ssss! Ssss!\"");
+        super.Sound("\"Ssss! Ssss!\"");
     }
 
     public Snake() {    }

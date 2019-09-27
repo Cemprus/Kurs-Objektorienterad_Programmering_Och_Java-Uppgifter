@@ -6,8 +6,11 @@ public class Reptile extends Animal {
     private int tailLentgh;
 
     @Override
+    public void Sound() {
+        System.out.println(getName() + " is a reptile that makes reptile sounds");
+    }
     public void Sound(String sound) {
-        System.out.println(getName() + " is a reptile that makes these sounds: " + sound);
+        System.out.println(getName() + " is a "+ getClass().getSimpleName() +" that makes these sounds: " + sound);
     }
 
     public int getTailLentgh() {

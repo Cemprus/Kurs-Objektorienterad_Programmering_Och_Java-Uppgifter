@@ -14,8 +14,11 @@ public class Mammal extends Animal {
     }
 
     @Override
+    public void Sound() {
+        System.out.println(getName() + " is a mammal that makes mammal sounds");
+    }
     public void Sound(String sound) {
-        System.out.println(getName() + " is a mammal that makes these sounds: " + sound);
+        System.out.println(getName() + " is a "+ getClass().getSimpleName() +" that makes these sounds: " + sound);
     }
 
     public Mammal() { }
